@@ -5,11 +5,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Example.Aspnetcore20.Models;
+using Jiguang.JPush;
 
 namespace Example.Aspnetcore20.Controllers
 {
     public class HomeController : Controller
     {
+        public HomeController(JPushClient client)
+        {
+            
+        }
+
         public IActionResult Index()
         {
             return View();

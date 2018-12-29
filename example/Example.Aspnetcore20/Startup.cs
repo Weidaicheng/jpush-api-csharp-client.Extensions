@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Jiguang.JPush.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -22,6 +23,12 @@ namespace Example.Aspnetcore20
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.AddJPush(options =>
+            {
+                options.AppKey = "AppKey";
+                options.MasterSecret = "MasterSecret";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
