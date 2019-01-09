@@ -2,6 +2,8 @@
 
 [![Build status](https://wdcdavyc.visualstudio.com/Jiguang.JPush.Extensions/_apis/build/status/Jiguang.JPush.Extensions-ASP.NET%20Core-CI)](https://wdcdavyc.visualstudio.com/Jiguang.JPush.Extensions/_build/latest?definitionId=11)
 
+[中文文档](README-CN.md)
+
 Jiguang.JPush.Extensions is an extension library that allows you to use JPush easier in Asp.net core / .Net core 2.0+
 
 ### Supported platforms
@@ -56,7 +58,6 @@ public Constructor(JPushClient client)
 ### Other information
 
 -  The default [Jiguang.JPush](https://www.nuget.org/packages/Jiguang.JPush/1.0.0) package version is 1.0.0, you can upgrade it in your own project if you need a higher version.
--  Add Chinese document.
 
 ### TODO
 
