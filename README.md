@@ -57,8 +57,9 @@ public Constructor(JPushClient client)
 
 ### Other information
 
--  The default [Jiguang.JPush](https://www.nuget.org/packages/Jiguang.JPush/1.0.0) package version is 1.0.0, you can upgrade it in your own project if you need a higher version.
+-  The package version like v1.1.0 is related to [Jiguang.JPush](https://www.nuget.org/packages/Jiguang.JPush/)'s v1.1.0, and so on.
+-  Only main and sub versions were covered.
 
 ### TODO
 
-- Follow the [Jiguang.JPush](https://github.com/jpush/jpush-api-csharp-client)'s main and sub version like 1.0.0, 2.3.0.
+- <del>Follow the [Jiguang.JPush](https://github.com/jpush/jpush-api-csharp-client)'s main and sub version like 1.0.0, 2.3.0.</del>

@@ -51,4 +51,4 @@ public Constructor(JPushClient client)
 
 ### 注意事项
 
-默认的 [Jiguang.JPush](https://www.nuget.org/packages/Jiguang.JPush/1.0.0) package 版本是 1.0.0, 你可以手动升级高版本。当然在未来会在后续版本中覆盖 JPush 的主要版本。
+程序包版本v1.1.0对应 [Jiguang.Jpush](https://www.nuget.org/packages/Jiguang.JPush/) 的v1.1.0版本，以此类推。注意：只有主版本和次版本被覆盖，如果想使用类似1.1.2这样的版本需要自己手动升级 Jiguang.Jpush。
