@@ -9,8 +9,8 @@
     <PackageLicenseUrl>https://github.com/Weidaicheng/jpush-api-csharp-client.Extensions/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Weidaicheng/jpush-api-csharp-client.Extensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Weidaicheng/jpush-api-csharp-client.Extensions</RepositoryUrl>
-    <PackageReleaseNotes>v1.1.0 release</PackageReleaseNotes>
-    <PackageVersion>1.1.0</PackageVersion>
+    <PackageReleaseNotes>v1.2.0 release</PackageReleaseNotes>
+    <PackageVersion>1.2.0</PackageVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Jiguang.JPush" Version="1.2.0" />
