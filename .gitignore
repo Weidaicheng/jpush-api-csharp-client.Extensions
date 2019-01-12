@@ -1,6 +1,8 @@
 .vscode/*
 .vs/*
+.idea/*
 global.json
+*.user
 src/Jiguang.JPush.Extensions/bin/*
 src/Jiguang.JPush.Extensions/obj/*
 test/Jiguang.JPush.Extensions.Tests/bin/*
