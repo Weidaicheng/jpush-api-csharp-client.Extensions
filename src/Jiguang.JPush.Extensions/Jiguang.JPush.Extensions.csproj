@@ -5,11 +5,12 @@
     <Authors>Weidaicheng</Authors>
     <Version>1.0.0</Version>
     <Description>The extensions for jpush(https://github.com/jpush/jpush-api-csharp-client) and Asp.net core / .Net core 2.0+</Description>
-    <Copyright>Copyright (c) 2018 Weidaicheng</Copyright>
+    <Copyright>Copyright (c) 2019 Weidaicheng</Copyright>
     <PackageLicenseUrl>https://github.com/Weidaicheng/jpush-api-csharp-client.Extensions/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Weidaicheng/jpush-api-csharp-client.Extensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Weidaicheng/jpush-api-csharp-client.Extensions</RepositoryUrl>
-    <PackageReleaseNotes>v1.0.0 release</PackageReleaseNotes>
+    <PackageReleaseNotes>v1.1.0 release</PackageReleaseNotes>
+    <PackageVersion>1.1.0</PackageVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Jiguang.JPush" Version="1.1.0" />
