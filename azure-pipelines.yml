@@ -19,3 +19,10 @@ steps:
   inputs:
     filePath: './BuildPackage.ps1'
     pwsh: true
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'push'
+    packagesToPack: '$(Build.Repository.LocalPath)/**/**/**/**/*.nupkg;!$(Build.Repository.LocalPath)/**/**/**/**/*.symbols.nupkg'
+    nuGetFeedType: 'external'
+    publishFeedCredentials: 'nuget1'
