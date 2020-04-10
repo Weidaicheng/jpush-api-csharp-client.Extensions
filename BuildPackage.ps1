@@ -15,7 +15,7 @@ if ($LASTEXITCODE -ne 0) {
 
 # build
 Write-Output "Building..."
-dotnet build
+dotnet build --configuration Release
 if ($LASTEXITCODE -ne 0) {
     Write-Error "Build faled."
     exit
@@ -58,7 +58,7 @@ Foreach($version in $jpushVersions.versions | Where-Object { $jpushExtVersions.v
 
     # pack package
     Write-Output "  Packing package..."
-    dotnet pack
+    dotnet pack --configuration Release
     if ($LASTEXITCODE -ne 0) {
         Write-Error "Pack faled for version: $version."
         exit
