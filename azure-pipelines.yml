@@ -21,8 +21,8 @@ steps:
     pwsh: true
 
 - task: NuGetCommand@2
-  displayName: Push
   inputs:
-    command: push
-    nuGetFeedType: external
-    publishFeedCredentials: nuget1
+    command: 'push'
+    packagesToPush: '/src/Jiguang.JPush.Extensions/bin/Release/Jiguang.JPush.Extensions.*.nupkg'
+    nuGetFeedType: 'external'
+    publishFeedCredentials: 'nuget1'
