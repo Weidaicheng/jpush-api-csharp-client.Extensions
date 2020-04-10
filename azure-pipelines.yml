@@ -23,6 +23,6 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'push'
-    packagesToPack: '$(System.ArtifactsDirectory)/**/**/**/**/*.nupkg'
+    packagesToPack: '$(Build.ArtifactStagingDirectory)/**/**/**/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/**/**/**/*.symbols.nupkg'
     nuGetFeedType: 'external'
     publishFeedCredentials: 'nuget1'
