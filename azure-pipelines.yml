@@ -19,3 +19,10 @@ steps:
   inputs:
     filePath: './BuildPackage.ps1'
     pwsh: true
+
+- task: NuGetCommand@2
+  displayName: Push
+  inputs:
+    command: push
+    nuGetFeedType: external
+    publishFeedCredentials: nuget1
