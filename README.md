@@ -58,8 +58,5 @@ public Constructor(JPushClient client)
 ### Other information
 
 -  The package version like v1.1.0 is related to [Jiguang.JPush](https://www.nuget.org/packages/Jiguang.JPush/)'s v1.1.0, and so on.
--  Only main and sub versions were covered.
-
-### TODO
-
-- <del>Follow the [Jiguang.JPush](https://github.com/jpush/jpush-api-csharp-client)'s main and sub version like 1.0.0, 2.3.0.</del>
+-  Newer version of [Jiguang.JPush](https://www.nuget.org/packages/Jiguang.JPush/) will be covered by Azure Pipelines automatically every month.
+-  Please raise an issue or contact me directly if some version hasn't been covered.
