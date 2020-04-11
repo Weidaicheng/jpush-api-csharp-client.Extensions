@@ -51,4 +51,6 @@ public Constructor(JPushClient client)
 
 ### 注意事项
 
-程序包版本v1.1.0对应 [Jiguang.Jpush](https://www.nuget.org/packages/Jiguang.JPush/) 的v1.1.0版本，以此类推。注意：只有主版本和次版本被覆盖，如果想使用类似1.1.2这样的版本需要自己手动升级 Jiguang.Jpush。
+ - 程序包版本v1.1.0对应 [Jiguang.Jpush](https://www.nuget.org/packages/Jiguang.JPush/) 的v1.1.0版本，以此类推。
+ - 新版本 [Jiguang.JPush](https://www.nuget.org/packages/Jiguang.JPush/) 将由Azure Pipelines每月自动发布。
+- 若有某个版本未被实现，请提issue或直接联系我本人。
