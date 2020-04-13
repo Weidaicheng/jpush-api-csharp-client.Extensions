@@ -1,6 +1,3 @@
-# perparation
-$projectFile = $PSScriptRoot + "/src/Jiguang.JPush.Extensions/Jiguang.JPush.Extensions.csproj"
-
 # CI phase
 # set location to *.sln
 Set-Location $PSScriptRoot
@@ -47,18 +44,10 @@ Foreach($version in $jpushVersions.versions | Where-Object { $jpushExtVersions.v
     # add new version of nuget package
     Write-Output "  Adding new package..."
     dotnet add package Jiguang.JPush -v $version
-    
-    # modifiy package metedata
-    Write-Output "  Modifying package metedata..."
-    [xml] $projectXmlDoc = Get-Content $projectFile
-    $projectXmlDoc.Project.PropertyGroup.Version = $version.ToString()
-    $projectXmlDoc.Project.PropertyGroup.PackageVersion = $version.ToString()
-    $projectXmlDoc.Project.PropertyGroup.PackageReleaseNotes = $version.ToString() + " release"
-    $projectXmlDoc.Save($projectFile)
 
     # pack package
     Write-Output "  Packing package..."
-    dotnet pack --configuration Release
+    dotnet pack --configuration Release -p:Version=$version -p:PackageReleaseNotes="$version release" -p:PackageVersion=$version
     if ($LASTEXITCODE -ne 0) {
         Write-Error "Pack faled for version: $version."
         exit
