@@ -15,7 +15,7 @@ namespace Jiguang.JPush.DependencyInjection
         /// </summary>
         /// <param name="services">The services.</param>
         /// <returns></returns>
-        private static IJPushBuilder addJPush(this IServiceCollection services)
+        public static IJPushBuilder AddJPush(this IServiceCollection services)
         {
             IOptionsProvider oProvider = new OptionsProvider();
             IJPushBuilder builder = new JPushBuilder(services, oProvider);
@@ -34,7 +34,7 @@ namespace Jiguang.JPush.DependencyInjection
         public static IJPushBuilder AddJPush(this IServiceCollection services, Action<JPushOptions> setupAction)
         {
             services.Configure<JPushOptions>(setupAction);
-            return services.addJPush();
+            return services.AddJPush();
         }
 
         /// <summary>
@@ -46,7 +46,7 @@ namespace Jiguang.JPush.DependencyInjection
         public static IJPushBuilder AddJPush(this IServiceCollection services, IConfiguration configuration)
         {
             services.Configure<JPushOptions>(configuration);
-            return services.addJPush();
+            return services.AddJPush();
         }
     }
 }
