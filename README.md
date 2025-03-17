@@ -8,7 +8,7 @@ Jiguang.JPush.Extensions is an extension library that allows you to use JPush ea
 
 ### Supported platforms
 
-- .Net core 2.0+
+- .Net Standard 2.0+
 
 ### Installation
 
