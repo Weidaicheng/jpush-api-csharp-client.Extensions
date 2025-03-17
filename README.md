@@ -4,7 +4,7 @@
 
 [中文文档](README-CN.md)
 
-Jiguang.JPush.Extensions is an extension library that allows you to use JPush easier in Asp.net core / .Net core 2.0+
+Jiguang.JPush.Extensions is an extension library that allows you to use JPush easier in Asp.net core / .Net Stadard 2.0+
 
 ### Supported platforms
 

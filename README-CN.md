@@ -1,4 +1,4 @@
-Jiguang.JPush.Extensions 是一个 JPush 扩展类库，方便你在 .Net core 2.0+ 中更方便地使用 JPush 。
+Jiguang.JPush.Extensions 是一个 JPush 扩展类库，方便你在 .Net Standard 2.0+ 中更方便地使用 JPush 。
 
 ### 支持的平台
 
