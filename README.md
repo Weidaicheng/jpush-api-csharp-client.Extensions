@@ -44,6 +44,8 @@ If you use this way, you need to add a `whatever.json` file first, and with cont
 }
 ```
 
+> You can also just call `AddJPush()` without any parameters, by doing this, you need to configure `JPushOptions` with `services.Configure<JPushOptions>(configuration)` in `Startup.ConfigureServices` method.
+
 Now, you can use `JPushClient` in your classes.
 
 ```c#

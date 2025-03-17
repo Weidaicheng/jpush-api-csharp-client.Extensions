@@ -12,6 +12,7 @@ namespace Jiguang.JPush.DependencyInjection
     {
         /// <summary>
         /// 添加极光推送
+        /// 此方法需要在Startup中使用services.Configure<JPushOptions>(configuration)来配置JPushOptions
         /// </summary>
         /// <param name="services">The services.</param>
         /// <returns></returns>
