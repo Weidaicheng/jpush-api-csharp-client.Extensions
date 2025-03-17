@@ -37,6 +37,7 @@ services.AddJPush(configuration);
   "MasterSecret": "Your MasterSecret"
 }
 ```
+> 您还可以直接调用 `AddJPush()` 而不传递任何参数，这样做需要在 `Startup.ConfigureServices` 方法中使用 `services.Configure<JPushOptions>(configuration)` 来配置 `JPushOptions`。
 
 然后，就可以愉快的使用 JPush 了😝。
 
@@ -53,4 +54,4 @@ public Constructor(JPushClient client)
 
  - 程序包版本v1.1.0对应 [Jiguang.Jpush](https://www.nuget.org/packages/Jiguang.JPush/) 的v1.1.0版本，以此类推。
  - 新版本 [Jiguang.JPush](https://www.nuget.org/packages/Jiguang.JPush/) 将由Azure Pipelines每月自动发布。
-- 若有某个版本未被实现，请提issue或直接联系我本人。
+ - 若有某个版本未被实现，请提issue或直接联系我本人。
