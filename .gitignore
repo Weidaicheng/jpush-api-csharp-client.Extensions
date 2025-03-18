@@ -9,3 +9,4 @@ test/Jiguang.JPush.Extensions.Tests/bin/*
 test/Jiguang.JPush.Extensions.Tests/obj/*
 example/Example.Aspnetcore20/bin/*
 example/Example.Aspnetcore20/obj/*
+nupkg/*
