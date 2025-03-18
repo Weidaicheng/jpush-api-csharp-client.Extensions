@@ -1,7 +1,5 @@
 # Jiguang.JPush.Extensions
 
-[![Build status](https://wdcdavyc.visualstudio.com/Jiguang.JPush.Extensions/_apis/build/status/Jiguang.JPush.Extensions-ASP.NET%20Core-CI)](https://wdcdavyc.visualstudio.com/Jiguang.JPush.Extensions/_build/latest?definitionId=11)
-
 [中文文档](README-CN.md)
 
 Jiguang.JPush.Extensions is an extension library that allows you to use JPush easier in Asp.net core / .Net Stadard 2.0+
